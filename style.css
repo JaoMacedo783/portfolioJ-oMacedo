@@ -40,6 +40,7 @@ body{
 #contentHolder{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin: 10px;
     flex-direction: column;
     background-image:url(style/images/background.png);
@@ -50,10 +51,10 @@ body{
 
 #apresentation{
     font-size: 21px;
-    background-color: #ff62329c;
+    background-color: #ff5724;
     padding: 10px;
-    width: 800px;
-    height: 250px;
+    width: 650px;
+    height: 220px;
     position: relative;
     top: 20px;
     margin-bottom: 400px;
@@ -67,6 +68,8 @@ body{
 #resume{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: 5px;
     height: 220px;
     width: 98%;
     background-color: #ff6232;
