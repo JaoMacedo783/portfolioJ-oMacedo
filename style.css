@@ -54,7 +54,6 @@ a:hover {
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-image: url("style/images/background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
