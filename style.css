@@ -98,3 +98,57 @@ h3{
 p{
     color: #ffffff;
 }
+
+@media (max-width: 768px) {
+    #top-bar {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #topbar_text h1 {
+        font-size: 16px;
+    }
+
+    .link a {
+        font-size: 18px;
+        display: block;
+        margin: 5px 0;
+    }
+
+    #contentHolder {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #apresentation {
+        width: 90%;
+        height: auto;
+        font-size: 18px;
+        margin-bottom: 50px;
+    }
+
+    #resume {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+    }
+
+    #contactData,
+    #skillIformation {
+        width: 90%;
+        text-align: left;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h3 {
+        font-size: 16px;
+    }
+}
